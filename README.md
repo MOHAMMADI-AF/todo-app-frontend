@@ -6,8 +6,6 @@
 
 - Not available
 
-## link to backend
-
 ## Table of Content:
 
 - About The App
