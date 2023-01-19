@@ -1,10 +1,7 @@
 .App {
+  background-color: #3d4556;
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+  min-height: 100vh;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -12,27 +9,84 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
-
+h1,
+h4 {
+  color: white;
+}
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  background-color: #3d4556;
+  min-height: 12vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  font-size: calc(18px + 2vmin);
   color: white;
 }
+.toDos {
+  display: flex;
+  flex-direction: row;
+  background-color: #8193b9;
+  width: 100%;
+  max-width: 60%;
+  margin: 2rem auto;
+  padding: 1rem;
+  text-align: center;
+  border-radius: 1rem;
+  font-size: 1.4rem;
+  color: white;
+}
+.toDoContainer {
+  background-color: #8193b9;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+  max-width: 60%;
+  margin: 1rem auto;
+  border-radius: 1rem;
 
-.App-link {
-  color: #61dafb;
+  color: white;
+}
+.button {
+  background: #3d4556;
+  color: white;
+  border: none;
+  padding: 1rem;
+  cursor: pointer;
+  font-size: 2rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.fa-button,
+.create-button,
+.edit-button {
+  background: #8193b9;
+  color: white;
+  border: none;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  cursor: pointer;
+  font-size: 2rem;
+}
+.todoInput,
+.editInput {
+  padding: 0.5rem;
+  font-size: 2rem;
+  border: none;
+  background: white;
+  border-radius: 1rem;
+}
+.createToDo,
+.editToDo {
+  display: flex;
+  flex-direction: row;
+  background-color: #8193b9;
+  width: 100%;
+  max-width: 60%;
+  margin: 2rem auto;
+  padding: 1rem;
+  text-align: center;
+  border-radius: 1rem;
+  font-size: 1.4rem;
+  color: white;
 }
